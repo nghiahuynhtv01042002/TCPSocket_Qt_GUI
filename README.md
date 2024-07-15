@@ -10,15 +10,14 @@ This project demonstrates how to control an LED connected to an ESP32 using a Qt
 
 ## Components
 - ESP32 development board
-- LED connected to one of the ESP32's GPIO pins
 - Qt GUI for controlling the LED and checking TCP communication
 
 ## Setup
 1. **Hardware Setup:**
-   - Connect the LED to one of the GPIO pins on the ESP32 (e.g., GPIO 2) with an appropriate resistor.
+   - ESP32 WROOM.
 
 2. **Software Setup:**
-   - Install the Arduino IDE and the ESP32 board support package.
+   - Install the ESP IDF and the ESP32 board support package.
    - Install Qt Creator for creating the Qt GUI.
 
 3. **ESP32 Code:**
@@ -30,8 +29,6 @@ This project demonstrates how to control an LED connected to an ESP32 using a Qt
 
 ## Demo
 Below are some images of the demo:
-
-
 
 1. ![LED OFF State]![image](https://github.com/user-attachments/assets/f104f327-db15-4bce-9425-206aa737cdf1)
    - LED turned OFF from the Qt GUI.
