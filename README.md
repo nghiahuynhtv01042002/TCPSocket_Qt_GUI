@@ -33,11 +33,11 @@ Below are some images of the demo:
 
 
 
-1. ![LED OFF State](![image](https://github.com/user-attachments/assets/f104f327-db15-4bce-9425-206aa737cdf1))
+1. ![LED OFF State]![image](https://github.com/user-attachments/assets/f104f327-db15-4bce-9425-206aa737cdf1)
    - LED turned OFF from the Qt GUI.
 
 
-1. ![LED ON State](![image](https://github.com/user-attachments/assets/80c54497-7d8d-497b-bbd2-d65663baac6e))
+1. ![LED ON State]![image](https://github.com/user-attachments/assets/80c54497-7d8d-497b-bbd2-d65663baac6e)
    - LED turned ON from the Qt GUI.
 
 
