@@ -17,10 +17,10 @@
 #include "driver/uart.h"
 
 /* WiFi configuration */
-#define EXAMPLE_ESP_WIFI_STA_SSID           "Nghiatv01"
-#define EXAMPLE_ESP_WIFI_STA_PASSWD         "01042002"
-#define EXAMPLE_ESP_WIFI_AP_SSID            "Nghiatv@esp"
-#define EXAMPLE_ESP_WIFI_AP_PASSWD          "123456789"
+#define EXAMPLE_ESP_WIFI_STA_SSID           "name of your wifi"
+#define EXAMPLE_ESP_WIFI_STA_PASSWD         "your wifi password"
+#define EXAMPLE_ESP_WIFI_AP_SSID            "name of your ap "
+#define EXAMPLE_ESP_WIFI_AP_PASSWD          "your password "
 #define EXAMPLE_ESP_WIFI_CHANNEL            1 // Replace CONFIG_ESP_WIFI_AP_CHANNEL with the actual channel number
 #define EXAMPLE_MAX_STA_CONN                4 // Replace CONFIG_ESP_MAX_STA_CONN_AP with the actual max connection number
 #define EXAMPLE_ESP_MAXIMUM_RETRY           5 // Replace CONFIG_ESP_MAXIMUM_STA_RETRY with the actual maximum retry number
