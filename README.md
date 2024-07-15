@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/63fac62e-1e70-4d96-854a-6a568bbca8f7)# ESP32 LED Control with Qt GUI via Socket TCP 
+# ESP32 LED Control with Qt GUI via Socket TCP 
 
 ## Overview
 This project demonstrates how to control an LED connected to an ESP32 using a Qt GUI. The ESP32 receives data from the Qt GUI to control the LED state (ON/OFF) and sends back the current LED status. Additionally, the ESP32 communicates with the Qt client GUI to verify the functionality of TCP communication by sending and receiving data.
