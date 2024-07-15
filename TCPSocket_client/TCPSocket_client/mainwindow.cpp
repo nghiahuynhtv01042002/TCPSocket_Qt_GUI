@@ -9,7 +9,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     setWindowTitle("TCPSocket Client");
     TCPSocket = new QTcpSocket();
-    TCPSocket->connectToHost(QHostAddress("127.0.0.1"),6767);// this is local host change to the ip that u need to connect
+//    TCPSocket->connectToHost(QHostAddress("127.0.0.1"),6767);// this is local host change to the ip that u need to connect
+    TCPSocket->connectToHost(QHostAddress("192.168.4.1"),1234);
     connect(TCPSocket,SIGNAL(readyRead()),this,SLOT(read_Data_Form_serverTCPSocket()));
 //    connect(TCPSocket, &QTcpSocket::readyRead, this, &MainWindow::read_Data_From_serverTCPSocket());
 
@@ -72,6 +73,11 @@ void MainWindow::read_Data_Form_serverTCPSocket()
         // Update UI with received message
 //        ui->textEdit_Data->setText(messageString);
         ui->textEdit_Data->append(messageString);
+        if (messageString.trimmed() == "Led Status: ON") {
+            ui->lblStatus->setText("ON");
+        } else if (messageString.trimmed() == "Led Status: OFF") {
+            ui->lblStatus->setText("OFF");
+        }
     }
 }
 
